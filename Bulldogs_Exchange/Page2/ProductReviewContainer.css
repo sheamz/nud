@@ -1,0 +1,128 @@
+.productReviewContainer-parentCont{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    width: 60%;
+}
+
+.productReviewContainer-parentCont .row.row-cols-3.metrics{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    align-items: center;
+}
+
+.productReviewContainer-parentCont .commentsContainer{
+    margin-top: 15px;
+}
+
+.productReviewContainer-parentCont .row.row-cols-3.metrics p{
+    text-align: center;
+}
+
+.productReviewContainer-parentCont .row.row-cols-3.metrics .metricsTitle{
+    color: #35408E;
+    font-size: 15px;
+}
+
+.productReviewContainer-parentCont .row.row-cols-3.metrics .metricsCount{
+    font-size: 25px;
+    font-family: 'ClanOT-Black';
+    margin-bottom: 0;
+}
+
+.productReviewContainer-parentCont .row.row-cols-3.metrics .metricsSubtitle{
+    font-size: 12px;
+    font-family: 'ClanOT-Book';
+    color: gray;
+}
+
+.productReviewContainer-parentCont .row.row-cols-3.metrics .barGraphCont{
+    align-items: center;
+    text-align: center;
+}
+
+.productReviewContainer-parentCont .row.row-cols-3.metrics .barGraphCont button{
+    background-color: #35408E;
+    border: none;
+    font-size: medium;
+    color: white;
+}
+
+.productReviewContainer-parentCont .row.row-cols-3.metrics .averageRatingCont{
+    align-items: center;
+    text-align: center;
+    color: var(--Color-10, #262626);
+    font-size: 34px; /* Increased by 10px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-left: 1px solid  #D4D4D4; /* Adjust the width and color as needed */
+    border-right: 1px solid  #D4D4D4;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.productReviewContainer-parentCont .metricsContainer .totalReviewCont{
+    align-items: center;
+    text-align: center;
+    color: var(--Color-10, #262626);
+    text-align: center;
+    font-size: 34px; /* Increased by 10px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.productReviewContainer-parentCont .nextPageInput {
+    display: flex;
+    align-items: center;
+    color: #35408E;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: auto;
+}
+
+.productReviewContainer-parentCont .filter-and-comment-container {
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    border: 1px solid rgb(201, 201, 201);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.productReviewContainer-parentCont .filter-and-comment-container h5 {
+    color: #35408E;
+    font-size: medium;
+    font-family: 'ClanOT-Black';
+}
+
+.productReviewContainer-parentCont .filter-and-comment-container textarea {
+    background-color: white;
+}
+
+.productReviewContainer-parentCont .filter-and-comment-container button {
+    background-color: #FFD41C;
+    border: none;
+    color: #35408E;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-top: 59px;
+}
+
+.dropdown-menu .dropdown-item{
+    cursor: pointer;
+}

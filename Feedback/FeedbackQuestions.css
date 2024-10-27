@@ -1,0 +1,13 @@
+.feedback-question{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.comment-input{
+    margin-top: 1%;
+}
+
+.form-floating label {
+    transition: all 0.2s ease-in-out; /* Smooth transition */
+    color: #35408E; /* Customize label color */
+}

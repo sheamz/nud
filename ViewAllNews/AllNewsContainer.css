@@ -1,0 +1,88 @@
+.productReviewContainer-parentCont{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    width: 100%;
+}
+
+.productReviewContainer-parentCont .metricsContainer{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    width: 100%;
+    /* background-color: green; */
+    padding-left: 60px;
+    color: var(--Color-10, #262626);
+    font-size: 34px; /* Increased by 10px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    column-gap: 9%;
+}
+
+.productReviewContainer-parentCont .commentsContainer{
+    margin-top: 15px;
+}
+
+.productReviewContainer-parentCont .metricsContainer p{
+    color: var(--Color-10, #262626);
+    text-align: center;
+    font-size: 21px; /* Increased by 10px */
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.productReviewContainer-parentCont .metricsContainer h6{
+    color: var(--Color-2, #102A71);
+    text-align: center;
+    font-size: 20px; /* Increased by 10px */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.productReviewContainer-parentCont .metricsContainer .barGraphCont{
+    align-items: center;
+    text-align: center;
+}
+
+.productReviewContainer-parentCont .metricsContainer .averageRatingCont{
+    align-items: center;
+    text-align: center;
+    color: var(--Color-10, #262626);
+    font-size: 34px; /* Increased by 10px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-left: 3px solid  #D4D4D4; /* Adjust the width and color as needed */
+    border-right: 3px solid  #D4D4D4;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.productReviewContainer-parentCont .metricsContainer .totalReviewCont{
+    align-items: center;
+    text-align: center;
+    color: var(--Color-10, #262626);
+    text-align: center;
+    font-size: 34px; /* Increased by 10px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.productReviewContainer-parentCont .nextPageInput {
+    display: flex;
+    align-items: center;
+    color: #35408E;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: auto;
+}

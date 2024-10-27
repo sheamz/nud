@@ -1,0 +1,64 @@
+/* Main container for event item */
+.eventItemTemplate-parentCont {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #d4d4d4;
+  margin-bottom: 30px;
+}
+
+/* Event content styling */
+.newsContent {
+  width: 1px;
+  margin-left: 30px;
+  flex-grow: 1;
+  /* border: 1px solid red; */
+}
+
+.newsTitle {
+  color: #35408e;
+  font-size: 20px;
+  line-height: 1;
+  /* border: 1px solid red; */
+  font-family: "ClanOT-Black";
+  white-space: nowrap;
+  /* text-wrap: ; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.newsInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsDate {
+  color: gray;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.viewPost {
+  padding: 2px 15px;
+  padding-top: 3px;
+  font-size: 12px;
+  background-color: #ffd41c;
+  color: #35408e;
+  border: none;
+  border-radius: 20px;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.viewPost:hover {
+  background-color: #ffd41c;
+  color: black;
+}
+
+.viewPost .fa-arrow-right {
+  margin-top: 3px;
+  font-size: 12px;
+  margin-left: 10px;
+}

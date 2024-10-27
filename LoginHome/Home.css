@@ -1,0 +1,181 @@
+.home-nav .appbar {
+    background-color: #35408E !important;
+}
+
+.home-nav img{
+    width: 40px !important;
+    height: 40px !important;
+    margin-top: -3px !important;
+}
+
+.home-body {
+    padding: 80px;
+}
+
+.home-body .title, .other-systems-body .title, .popular-posts-body .title{
+    color: #35408E;
+    font-size: large;
+}
+
+.home-body .card i, .popular-posts-body .card i{
+    font-size: 40px;
+    color: #35408E;
+    text-align: end;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.home-body .card .card-title{
+    font-size: 25px;
+    font-family: 'ClanOT-Black';
+    letter-spacing: 0.9;
+    color: #35408E;
+}
+
+.home-body .card .card-text, .popular-posts-body .card .card-text{
+    font-size: 13px;
+    color: gray;
+    line-height: 1;
+}
+
+.home-body .card .card-footer{
+    background-color: transparent;
+    border-top: none;
+}
+
+.home-body .card .card-footer small{
+    background-color: #FFD41C;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #35408E !important;
+    text-align: center;
+}
+
+.home-body .card .card-footer small i{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+/* Gradient animation for card on hover */
+.home-body .card {
+    transition: background 0.5s ease;
+}
+
+.home-body .card:hover {
+    background: linear-gradient(45deg, #FFD41C, white);
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s ease infinite;
+    cursor: pointer;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.other-systems-body, .popular-posts-body {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+}
+
+.other-systems-body .card {
+    background: linear-gradient(45deg, #6A75C9, #35408E);
+    color: white;
+    border: none;
+    height: 220px;
+}
+
+.other-systems-body .card .card-title{
+    font-family: 'ClanOT-Black';
+    color: #FFD41C;
+    font-size: 25px;
+}
+
+.other-systems-body .card .card-text{
+    font-size: 13px;
+    line-height: 1.2;
+}
+
+.other-systems-body .card button{
+    font-size: 13px;
+    background-color: #FFD41C;
+    color: #35408E;
+    border: none;
+}
+
+
+/* popular posts */
+.popular-posts-body {
+    background-color: #FFD41C;
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+.popular-posts-body .card img{
+    border-radius: 50%;
+}
+.popular-posts-body .card .card-title{
+    color: #35408E;
+    font-size: large;
+}
+
+.popular-posts-body .card .card-text{
+    font-size: 13px;
+    font-family: 'ClanOT-Book';
+    color: black;
+    line-height: 1;
+}
+
+.popular-posts-body .card .card-footer{
+    background-color: transparent;
+}
+
+.popular-posts-body .card .card-footer small{
+    color: #35408E !important;
+}
+
+.popular-posts-body .card .card-footer small i{
+    font-size: 18px;
+    margin-right: 0;
+    padding-right: 0;
+    color: #FFD41C;
+}
+
+.popular-posts-body .card .card-footer small span{
+    color: gray;
+    align-self: center;
+    margin-top: 8px;
+}
+
+/* Gradient animation for card on hover */
+.popular-posts-body .card {
+    transition: background 0.5s ease;
+}
+
+.popular-posts-body .card:hover {
+    background: linear-gradient(45deg, #6A75C9, white);
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s ease infinite;
+    cursor: pointer;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

@@ -1,0 +1,75 @@
+.feedback-contact {
+    width: 100%;
+}
+
+.contact-title .contitle {
+    color: black;
+    font-size: large;
+    margin-top: 44px;
+    margin-left: 5%;
+    font-family: 'ClanOT-Black';
+}
+
+@media (max-width: 1200px) {
+    .contact-title .contitle {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .feedback-contact {
+        margin-left: 5%;
+    }
+
+    .contact-title .contitle {
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 4%;
+    }
+}
+
+@media (max-width: 480px) {
+    .feedback-contact {
+        margin-left: 8%;
+    }
+
+    .contact-title .contitle {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: 5%;
+    }
+}
+  
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-right: 5%;
+}
+
+.input-row {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.feedback-contact .form-floating .form-control {
+    padding: 5px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5px;
+    background-color: white; 
+    height: fit-content;
+    padding: 10px;
+}
+.form-floating label {
+    color: #35408E; 
+    font-size: 14px; 
+}
+
+.form-floating .form-control:focus {
+    border-color: #102A71; 
+    box-shadow: 0 0 5px rgba(16, 42, 113, 0.5); 
+}

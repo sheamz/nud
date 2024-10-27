@@ -1,0 +1,70 @@
+.contentTemplate-parentCont{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+}
+
+.commentTemplate-border-custom{
+    margin-top: 50px;
+    margin: auto;
+    width: 100%;
+    background-color: #D4D4D4;
+}
+
+.contentTemplate-parentCont .contentTemplateProfilePic{
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.contentTemplate-parentCont .reviewContent{
+    padding-top: 15px;
+    display: flex;
+    column-gap: 50px;
+}
+
+.contentTemplate-parentCont .reviewContent .reviewHeader{
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: fit-content;
+    justify-content: center;
+}
+
+.contentTemplate-parentCont .reviewContent .reviewHeader h4{
+    color: var(--Color-13, #35408E);
+    font-size: 15px;
+    font-family: 'ClanOT-Black';
+}
+
+.contentTemplate-parentCont .reviewContent .reviewHeader p{
+    color: var(--Color-13, #35408E);
+    font-size: 15px;
+    font-family: 'ClanOT-Black';
+}
+
+.contentTemplate-parentCont .reviewContent .reviewHeader .date{
+    color: gray;
+    font-size: 13px;
+}
+
+.contentTemplate-parentCont .reviewContent .reviewBody{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    font-size: 15px; 
+    font-family: 'ClanOT-Book';
+    width: 100%;
+    justify-content: center;
+}
+
+.contentTemplate-parentCont .reviewContent .reviewBody h6{
+    color: gray;
+    font-size: 13px; 
+    font-family: 'ClanOT-Book';
+}
+
+.contentTemplate-parentCont .reviewContent .reviewBody p{
+    color: var(--Color-10, #262626);
+    font-size: 15px; 
+}

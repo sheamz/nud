@@ -1,0 +1,32 @@
+.fcardCont{
+    height: 320px;
+}
+
+.fcardCont .cardBody{
+    border-radius: 10px;
+    background: none;
+    border: 1px solid #dbdbdb;
+}
+
+.fcardCont .cardBody img{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    object-fit: cover;
+}
+
+.fcardCont .cardBody .cardBodyContent{
+    line-height: 0;
+    padding: 20px;
+}
+
+.cardBody .cardBodyContent .cardTitle h4{
+    color: #35408E;
+    font-family: 'ClanOT-Black', sans-serif;
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.cardBody .cardBodyContent .cardText p{
+    color: gray;
+    font-size: 12px;
+}

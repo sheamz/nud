@@ -1,0 +1,32 @@
+.categHeader {
+  font-size: large;
+  color: #35408E;
+}
+
+.container-featured{
+  padding: 0;
+  margin-top: 10px;
+}
+
+.container-featured .nav{
+  background-color: rgb(247, 247, 247);
+  border-radius: 10px;
+  border: 1px solid rgb(201, 201, 201);
+  padding: 20px;
+}
+
+
+.container-featured button {
+  color: #35408E;
+  font-size: 15px;
+}
+
+.container-featured .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #35408E;
+  background-color: #FFD41C !important;
+}
+
+.fcategoryList{
+  width: 100%;
+}
+

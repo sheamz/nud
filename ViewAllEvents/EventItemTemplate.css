@@ -1,0 +1,70 @@
+/* Main container for event item */
+.eventItemTemplate-parentCont {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D4D4D4;
+    margin-bottom: 30px;
+  }
+  
+  /* Date box styling */
+  .dateBox {
+    background-color: #35408E; /* Same color as in the image */
+    width: 150px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+    line-height: 1.2;
+  }
+  
+  .dateBox-month {
+    font-size: 20px;
+    margin: 0;
+    color: #FFD41C; /* Same color as in the image */
+  }
+  
+  .dateBox-day {
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  /* Event content styling */
+  .eventContent {
+    margin-left: 50px;
+    flex-grow: 1;
+  }
+  
+  .eventTitle {
+    color: #35408E;
+    font-size: 20px;
+    font-family: 'ClanOT-Black';
+  }
+  
+  .eventInfo {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+  }
+  
+  .eventDate, .eventLocation, .eventTime {
+    color: gray;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  /* Icon styling */
+  .eventIcon {
+    width: 18px; /* Adjust size */
+    height: 18px;
+    margin-right: 10px; /* Space between the icon and text */
+    color: #FFD41C;
+  }
+  

@@ -1,0 +1,60 @@
+.latestnews {
+  width: 100%;
+}
+
+.latestnews h4,
+.news-title {
+  color: #35408e;
+  font-size: large;
+}
+
+.latestnews .card {
+  padding: 20px;
+  height: fit-content;
+}
+
+.latestnews .card img {
+  border-radius: 5px;
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.latestnews .card .card-date {
+  font-family: "ClanOT-Black";
+  letter-spacing: 0.9;
+  color: gray;
+}
+
+.latestnews .card .card-title {
+  font-size: 20px;
+  font-family: "ClanOT-Black";
+  letter-spacing: 0.9;
+  color: #35408e;
+}
+
+.latestnews .card .card-text {
+  font-size: 13px;
+  letter-spacing: 0.9;
+  font-family: "ClanOT-Book";
+  line-height: 1;
+}
+.latestnews .card .card-body p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.more-news-container {
+  margin-top: 50px;
+}
+
+a.card-text.text-decoration-none.text-secondary.view-orig {
+  color: #35408e !important;
+  font-family: 'ClanOT-Bold';
+  background-color: #FFD41C;
+  border-radius: 20px;
+  padding: 5px 15px;
+  padding-top: 8px;
+  font-size: 10px;
+}

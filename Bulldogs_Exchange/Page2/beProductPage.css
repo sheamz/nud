@@ -1,0 +1,117 @@
+
+.beProductPage-productContainer{
+  width:100%;
+}
+
+  .beProductPage-productContainer .beProductPage-productImage1 img{
+    margin: auto;
+    width: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+    object-fit: contain;
+  }
+
+  .beProductPage-productContainer .beProductPage-productImage2{
+    display:flex;
+    column-gap: 20px;
+    margin: auto;
+    padding-top: 20px;
+
+  }
+
+  .beProductPage-productContainer .beProductPage-productImage2 img{
+    width: 100%;
+    border-radius: 10px;
+  }
+
+
+  .beProductPage-productContainer .beProductPage-productInfoLabel h4{
+    color: #35408E;
+    font-family: 'ClanOT-Black', sans-serif;
+  }
+
+  
+
+.beProductPage-productContainer .beProductPage-productInfoDescrip .title{
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.beProductPage-productContainer .beProductPage-productInfoDescrip .price{
+  color: #35408E;
+  background-color: #ffd41c;
+  padding: 0px 20px;
+  padding-top: 2px;
+  border-radius: 20px;
+  font-size: 15px;
+  width: fit-content;
+  margin-top: -5px;
+}
+
+.beProductPage-productContainer .ratings{
+  margin-top: -4px;
+  margin-left: -20px;
+  font-size: 15px;
+  color: gray;
+}
+
+.beProductPage-productContainer .beProductPage-productInfoDescrip table th,
+.beProductPage-productContainer .beProductPage-productInfoDescrip table td {
+  padding: 15px; /* Adjust the space inside each cell */
+  padding-left: 0;
+  font-size: 15px;
+}
+
+.beProductPage-productContainer .beProductPage-productInfoDescrip table th {
+  color: gray;
+  font-size: 13px;
+  width: 150px;
+}
+
+.beProductPage-productContainer .beProductPage-productInfoDescrip table td {
+  font-size: 13px;
+  font-family: 'ClanOT-Book', sans-serif;
+  line-height: 1;
+}
+
+.beProductPage-productContainer .beProductPage-productInfoDescrip table i {
+  margin-right: 5px;
+  color: #ffd41c;
+}
+
+.beProductPage-productContainer .beProductPage-productInfoDescrip .badge {
+  background-color: #35408E;
+  margin: 5px;
+}
+
+.product-reviews-container .title {
+  color: #35408E;
+  font-size: large;
+  margin-top: 50px;
+}
+
+
+.beProductPage-parentCont .productRev-title{
+    margin: 50px;
+    margin-left: 100px;
+    margin-top: 40px;
+    color: var(--Color-13, #35408E);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.beProductPage-parentCont .ProductReviewContainerCont{
+  display: flex;
+  flex-direction: row;
+}
+
+.beProductPage-parentCont .productRevHeader, .beProductPage-parentCont .productRevHeader form{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.beProductPage-parentCont .productRevHeader .productRev-title{
+  width: 20%;
+}
